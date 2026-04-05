@@ -1,6 +1,7 @@
 # Commerce
 
-**Live demo:** _https://risandiro.pythonanywhere.com/_ (some features only work when you’re logged in)
+**Live demo:** _https://risandiro.pythonanywhere.com/_ 
+(some features only work when you’re logged in)
 
 **Source:** _https://github.com/risandiro/commerce_
 
@@ -11,7 +12,7 @@ Auction-style marketplace where users can post listings, place bids, manage a wa
 ## Features
 
 - User registration, login, and logout (custom user model)
-- Create listings with title, description, image URL, starting bid, and category (only for logged users)
+- Create listings with title, description, image URL, starting bid, and category
 - Active / closed listings; highest bid wins when a listing is closed
 - Place bids with validation (must exceed current bid and meet minimum)
 - Watchlist: add/remove listings and quick access from the nav
