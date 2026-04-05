@@ -1,9 +1,8 @@
 # Commerce
 
-**Live demo:** _https://risandiro.pythonanywhere.com/_
+**Live demo:** _https://risandiro.pythonanywhere.com/_ (some features only work when you’re logged in)
 
 **Source:** _https://github.com/risandiro/commerce_
-(some features only work when you’re logged in)
 
 ---
 
