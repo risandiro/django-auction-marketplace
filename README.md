@@ -3,6 +3,7 @@
 **Live demo:** _https://risandiro.pythonanywhere.com/_
 
 **Source:** _https://github.com/risandiro/commerce_
+(some features only work when you’re logged in)
 
 ---
 
