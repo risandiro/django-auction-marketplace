@@ -11,7 +11,7 @@ Auction-style marketplace where users can post listings, place bids, manage a wa
 ## Features
 
 - User registration, login, and logout (custom user model)
-- Create listings with title, description, image URL, starting bid, and category
+- Create listings with title, description, image URL, starting bid, and category (only for logged users)
 - Active / closed listings; highest bid wins when a listing is closed
 - Place bids with validation (must exceed current bid and meet minimum)
 - Watchlist: add/remove listings and quick access from the nav
