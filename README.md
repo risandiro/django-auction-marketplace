@@ -1,13 +1,8 @@
-# Commerce
+# django-auction-marketplace
 
-**Živá ukázka:** _https://risandiro.pythonanywhere.com/_  
-(některé funkce fungují jen po přihlášení)
-
-**Zdrojový kód:** _https://github.com/risandiro/commerce_
+Full-stack Django tržiště s komiksy a aukcemi: uživatelé mohou vkládat inzeráty, podávat příhozy, spravovat sledované položky a procházet podle kategorie. Přihlášení a registrace, Autentizace, Uživatelské účty. Postaveno jako webová aplikace (**Django + SQLite**).
 
 ---
-
-Tržiště v duchu aukcí: uživatelé mohou vkládat inzeráty, podávat příhozy, spravovat sledované položky a procházet podle kategorie. Postaveno jako závěrečná webová aplikace (**Django + SQLite**).
 
 ## Funkce
 
@@ -19,6 +14,10 @@ Tržiště v duchu aukcí: uživatelé mohou vkládat inzeráty, podávat příh
 - Komentáře u inzerátů
 - Stránky kategorií a přehled „všechny kategorie“
 - Django admin pro správu obsahu (volitelné)
+
+**Živá ukázka:** 
+_https://risandiro.pythonanywhere.com/_  
+(některé funkce fungují jen po přihlášení)
 
 ## Technologie
 
