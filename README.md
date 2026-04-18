@@ -1,82 +1,44 @@
 # Commerce
 
-**Live demo:** _https://risandiro.pythonanywhere.com/_ 
-(some features only work when you’re logged in)
+**Živá ukázka:** _https://risandiro.pythonanywhere.com/_  
+(některé funkce fungují jen po přihlášení)
 
-**Source:** _https://github.com/risandiro/commerce_
+**Zdrojový kód:** _https://github.com/risandiro/commerce_
 
 ---
 
-Auction-style marketplace where users can post listings, place bids, manage a watchlist, and browse by category. Built as a capstone-style web app (**Django + SQLite**).
+Tržiště v duchu aukcí: uživatelé mohou vkládat inzeráty, podávat příhozy, spravovat sledované položky a procházet podle kategorie. Postaveno jako závěrečná webová aplikace (**Django + SQLite**).
 
-## Features
+## Funkce
 
-- User registration, login, and logout (custom user model)
-- Create listings with title, description, image URL, starting bid, and category
-- Active / closed listings; highest bid wins when a listing is closed
-- Place bids with validation (must exceed current bid and meet minimum)
-- Watchlist: add/remove listings and quick access from the nav
-- Comments on listings
-- Category pages and "all categories" overview
-- Django admin for content management (optional)
+- Registrace, přihlášení a odhlášení uživatele (vlastní uživatelský model)
+- Vytváření inzerátů s názvem, popisem, URL obrázku, vyvolávací cenou a kategorií
+- Aktivní / uzavřené inzeráty; po uzavření vyhrává nejvyšší příhoz
+- Podávání příhozů s validací (musí překonat aktuální příhoz a splnit minimum)
+- Sledované: přidávání/odebírání inzerátů a rychlý přístup z navigace
+- Komentáře u inzerátů
+- Stránky kategorií a přehled „všechny kategorie“
+- Django admin pro správu obsahu (volitelné)
 
-## Tech stack
+## Technologie
 
 - **Python 3**
 - **Django** 3.x
-- **SQLite** (development)
-- **HTML / CSS** (Django templates)
+- **SQLite** (vývoj)
+- **HTML / CSS** (Django šablony)
 
-## Getting started
+## Jak začít
 
-### Prerequisites
+### Požadavky
 
-- Python 3.8.5+ recommended
+- Doporučeno Python 3.8.5+
 - `pip`
 
-### Setup
+### Nastavení
 
 ```bash
 git clone https://github.com/risandiro/commerce.git
 cd commerce
-python -m venv venv
-
-# Windows (PowerShell)
-.\venv\Scripts\Activate.ps1
-
-pip install "Django>=3.2,<5"
+pip install django
 python manage.py migrate
 python manage.py runserver
-```
-
-Open **http://127.0.0.1:8000/** in your browser.
-
-### Optional: admin user
-
-```bash
-python manage.py createsuperuser
-```
-
-Then visit **http://127.0.0.1:8000/admin/**.
-
-## Project layout (high level)
-
-```
-commerce/          # project settings, urls
-auctions/          # models, views, templates, static
-manage.py
-```
-
-## What I learned
-
-- Server-rendered apps with Django (URLs, views, templates, forms)
-- Relational modeling (users, listings, bids, categories, watchlist, comments)
-- Auth and per-user state in a web app
-
-## License / attribution
-
-Coursework inspired by **CS50's Web Programming with Python and JavaScript** (Harvard). This repository is my own implementation for portfolio purposes.
-
----
-
-**Author:** Richard Král ([@risandiro](https://github.com/risandiro))
