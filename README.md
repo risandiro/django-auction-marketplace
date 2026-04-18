@@ -7,7 +7,7 @@
 
 ---
 
-Auction-style marketplace where users can post listings, place bids, manage a watchlist, and browse by category. Built as a capstone-style web app (Django + SQLite).
+Auction-style marketplace where users can post listings, place bids, manage a watchlist, and browse by category. Built as a capstone-style web app (**Django + SQLite**).
 
 ## Features
 
