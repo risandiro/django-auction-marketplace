@@ -15,8 +15,10 @@ Full-stack Django tržiště s komiksy a aukcemi: uživatelé mohou vkládat inz
 - Stránky kategorií a přehled „všechny kategorie“
 - Django admin pro správu obsahu (volitelné)
 
-**Živá ukázka:** 
-_https://risandiro.pythonanywhere.com/_  
+## Živá ukázka
+
+**[https://flask-serpapi-export-tests.onrender.com]([https://flask-serpapi-export-tests.onrender.com](https://risandiro.pythonanywhere.com))**
+
 (některé funkce fungují jen po přihlášení)
 
 ## Technologie
@@ -26,14 +28,12 @@ _https://risandiro.pythonanywhere.com/_
 - **SQLite** (vývoj)
 - **HTML / CSS** (Django šablony)
 
-## Jak začít
-
 ### Požadavky
 
 - Doporučeno Python 3.8.5+
-- `pip`
+- Závislosti: `django`, `sqlite3`
 
-### Nastavení
+## Lokální spuštění
 
 ```bash
 git clone https://github.com/risandiro/commerce.git
