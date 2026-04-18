@@ -1,6 +1,6 @@
 # django-auction-marketplace
 
-Full-stack Django tržiště s komiksy a aukcemi: uživatelé mohou vkládat inzeráty, podávat příhozy, spravovat sledované položky a procházet podle kategorie. Přihlášení a registrace, Autentizace, Uživatelské účty. Postaveno jako webová aplikace (**Django + SQLite**).
+Full-stack Django tržiště s komiksy a aukcemi: uživatelé mohou vkládat inzeráty, podávat příhozy, spravovat sledované položky a procházet podle kategorie. Přihlášení a registrace, Autentizace, Uživatelské účty. Postaveno jako webová aplikace (**Django + SQLite**). CI: GitHub Actions spouští Django testy při pushi a pull request.
 
 ---
 
